@@ -1,0 +1,13 @@
+let a;
+a = 'angular';
+a = 10;
+a = true;
+let b : string = 'Hello';
+let ch1 = b.endsWith('o');
+console.log(ch1);
+let c ;
+c = 'welcome';
+let ch2 = (<string>c).concat(' Raju');
+console.log(ch2);
+let ch3 = (ch2 as string).endsWith('u');
+console.log(ch3);
